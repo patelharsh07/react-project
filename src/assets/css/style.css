@@ -1,0 +1,398 @@
+/*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('http://fonts.cdnfonts.com/css/aakar');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+html{scroll-behavior: smooth;}
+
+/**body**/
+body{line-height: 24px; color: #000000;font-family: 'Merriweather', serif;}
+
+/*header*/
+/**header**/
+.header{position: absolute;top: 30px;left: 0;right: 0;bottom: 0;margin: auto;}
+.header .header-logo{width: 150px;}
+.navbar{z-index: 30}
+.header .navbar-nav li.nav-item a.nav-link{color: #2B2B2B;padding: 6px 15px; margin:0px 0px;}
+.sticky-li{position: fixed;top: 53;right: 0;}
+.header .navbar-nav .nav-link{font-size: 20px; font-family: 'aakar', sans-serif; font-weight: 500;} 
+.header .navbar-nav .nav-link span{margin-right: 12px;}
+.side-nav{z-index: 20;}
+.header .navbar-nav li.nav-item a.nav-link:hover{color: #D87429;}
+.nav-item.active span{color: #D87429;}
+.side-nav a{text-decoration: none; color: #000;}
+/*main image*/
+button{font-family: 'Oswald', sans-serif; letter-spacing: 2px; text-transform: uppercase;}
+.main-image{background-position: center;background-repeat: no-repeat;background-size: cover; height: 100%; }
+
+.carousel-inner{ width: 100%; height: 120vh; overflow: hidden; z-index: -10;}
+.img-one{background-image: url(../images/beautiful-mountain-view-with-cloudy-sky1.png);} 
+.img-two{background-image: url(../images/school-bg.jpg);} 
+.img-three{background-image: url(../images/exhale-three.jpg);} 
+.carousel-control-prev{display: none !important;}
+.carousel-control-next{display: none !important;}
+.carousel-indicators{display: none !important;}
+.down-arrow{position: absolute; right: 20px; top: 200px;}
+.main-content{padding: 300px 20px 220px 80px;color: #FFF;}
+.hello-text{font-family: 'Dancing Script', cursive;font-weight: 400;font-size: 24px;opacity: 0.9;color: #FFF;}
+.other-content h2{font-size: 50px;letter-spacing: 1.01;}
+.other-content .md-txt{font-size: 16px;}
+.other-content p{font-family: 'Merriweather', serif;  font-size: 14px;font-weight: 300;white-space: pre-line;line-height: 2.2rem;letter-spacing: 1.02;}
+.line-content{  color: #ffffff;  text-decoration: none; writing-mode: vertical-rl;text-orientation: mixed;font-family: 'Raleway', sans-serif; z-index: 10;}
+.line-content:hover{text-decoration: none; color: #ffffff; }
+/*seconed section*/
+.second-container{background-color: rgba(179, 105, 51, 0.1);}
+.second-container .container-fluid{padding-left: 0px;}
+.second-container .about-owner{background-color: #D87429;padding: 50px;width: 100%;margin-left: -80px;margin-top: -40px;height: 100%;}
+.other-content{color: #FFF;}
+.second-container .other-content p{line-height: 1.8rem;}
+.about-btn{background-color: #FFF;color: #D87429;border: 1px solid #D87429;font-size: small;padding: 8px 14px;cursor: pointer;}
+.about-btn:hover{background-color: #D87429;color: #FFF;border: 1px solid #FFF;font-size: small;padding: 8px 14px;}
+
+/*mission*/
+.mission-part{padding: 120px 24px;}
+.mission-part .our-mission-text{color: #D87429;font-family: 'Dancing Script', cursive; font-size: 34px; line-height: 30px;}
+.mission-part p{white-space: pre-line;text-transform: capitalize;}
+.bg-img-dog{background-image: url(../images/Untitled-2.png); background-size: cover; background-position: center; height: 40vh; background-repeat: no-repeat; background-attachment: fixed; position: relative;}
+/* .bg-img-dog{width: -webkit-fill-available;} */
+
+/*support*/
+.support-data img{margin-top: 30px; }
+.supporter-img-box{width: 200px; height: auto; margin: 0 auto; }
+.our-supporters-main{padding: 60px 230px;}
+
+/*fourth-section*/
+.fourth-section{background-color: rgba(179, 105, 51, 0.1);padding: 120px;}
+.bottom-div{margin-top: 200px;}
+.img-no{color:rgba(234, 183, 144, 0.99); font-size: 50px;position: absolute;top: -10px;left: 40px;}
+.img-name{color: #000;font-family: 'Dancing Script', cursive;white-space: pre-line;transform: rotateZ(-20deg);position: absolute;left: 350px;top: 60px;font-size: 36px;}
+.fourth-section .arrow-img{transition: .2s ease-out;}
+.top-div .arrow-img{background-color: #D87429;border-radius: 50%;padding: 15px;width: max-content;color: #FFF;font-weight: 200;position: absolute;left: 360px;bottom: 258px;}
+.bottom-div .arrow-img{background-color: #D87429;border-radius: 50%;padding: 15px;width: max-content;color: #FFF;font-weight: 200;position: absolute;left: 360px;bottom: 55px; transition: .2s ease-out;}
+.fourth-section .arrow-img:hover{background-color: #ffffff; color: #D87429; box-shadow: 0px 0px 24px 0px #00000038; transform: scale(1.2);}
+.small-text{color: #606060;text-transform: uppercase;font-size: 12px;margin-top: 15px;opacity: 0.8;}
+.main-text{color: #000;text-transform: capitalize;font-size: 20px;}
+.swing-img{box-shadow: 0px 0px 26px 6px #989898a8;}
+/* .swing{animation: swing ease-in-out 1.6s infinite alternate; transform-origin: center -20px; float:left; } */
+.hanging-rope{display: none; position: absolute; position: absolute; left: 125px; z-index: -1; top: -76px;}
+.haging-point{display: none; width: 20px; height: 20px; background-color: #B26933; position: absolute; top: -83px; left: 222px; z-index: 2; border-radius: 30px; box-shadow: 0px 0px 20px 4px #00000038;}
+.line-content.footer{color: #000000; background-color: transparent; margin: 0; padding: 0;} 
+.back-to-top{position: absolute; right: 42px ; top: -21px;}
+.back-to-top-arrow{border: 1px solid #000000; width: 40px; height: 40px; border-radius: 50px; display: grid; place-items: center; color: #000000;}
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+/*fifth-section*/
+.fifth-section{height: 500px; background: linear-gradient(269.94deg, rgba(243, 115, 53, 0.82) 0.04%, rgba(253, 200, 48, 0.82) 99.94%);padding-top: 60px;}
+.fifth-section .inspiration-div{display: flex;align-items: center;justify-content: center;}
+.fifth-section .inspiration-div h1{white-space: pre-line;text-align: center;color: #FFF;}
+.fifth-section .bottom-continue-div{background: #FFF6F0;width: 435px;padding: 40px 20px; margin-right: 205px;}
+.fifth-section .bottom-continue-div h1{font-size: 28px;white-space: pre-line;}
+
+/*sixth-section*/
+.sixth-section{background: rgba(255, 246, 240, 0.21);}
+.insp-text{color: #D87429;font-family: 'Dancing Script', cursive;font-size: 20px;margin-top: 25px;}
+.sixth-section .bottom-continue-div{ width: 100%; background: #FFF6F0; padding: 40px 20px;}
+.sixth-section  .bottom-continue-div h1{font-size: 28px;white-space: pre-line;}
+.sixth-section .contain-section p{font-size: 15px; font-family: 'Raleway', sans-serif;margin-top: 10px;}
+.sixth-section ul{text-decoration: none;list-style: none;margin-left: 65px; margin-top: -155px;}
+.sixth-section ul .l1{padding: 20px;background-color: #FCEDE2;font-weight: 300;min-width: 250px;}
+.sixth-section ul .l2{padding: 20px;background-color: #FFF6F0;font-weight: 300;min-width: 250px;}
+.sixth-section ul li:hover{background-color: #D87429; color: #ffffff;}
+.sixth-section ul li:hover .fa-arrow-right{color: #ffffff; transform: translateX(2px);}
+.sixth-section ul .count{color: rgba(234, 183, 144, 0.99);margin-right: 30px;}
+.sixth-section ul .li-arrow{color: #D87429;margin-left: 85px;font-size: 12px;}
+.read-more{background-color: #D87429;color: #FFF;border: 1px solid #FFF;font-size: small;padding: 10px 40px;}
+.read-more:hover{background-color: #FFF;color: #D87429;border: 1px solid #D87429;font-size: small;padding: 10px 40px;cursor: pointer;}
+.time-btn{background-color: #D87429;color: #FFF;border: 1px solid #D87429;font-size: small;padding: 5px 40px;margin-top: -20px;}
+.mission-part h5{color: #2B2B2B;white-space: pre-line;text-align: center;margin-top: 20px;}
+.sixth-section .fa-arrow-right{font-size: 13px;  color: #D87429; transition: .2s ease-out;}
+
+/*seventh-section*/
+.seventh-section{padding: 36px 100px 100px 100px; background-image: url(../images/quote-vector.svg); background-position:top; background-repeat: no-repeat;}
+.seventh-section h5{color: #EAB790;}
+.seventh-section p{white-space: pre-line;font-family: 'Raleway', sans-serif}
+.seventh-section h3{color: #606060;font-family:'Dancing Script', cursive;}
+
+/*footer*/
+.footer{background: rgba(179, 105, 51, 0.1);padding-top: 100px;}
+.about-us-footer-div{padding-left: 140px;}
+.footer-text h3{color: #606060;}
+.footer-text p{font-size: 16px;font-family: 'Raleway', sans-serif;}
+.footer .social-media p{background: #FFF;padding: 8px;color: #606060;text-transform: uppercase;}
+.footer .get-around{color: #ffffff; padding:44px 50px;background: #D87429;width: 380px;top: -178px;position: relative; z-index: 2; margin-bottom: 10px;}
+.footer .get-around p{margin-top: 20px; margin-left: 6px;}
+.uline::after{margin-top: 16px; background: #ffffff;height: 2px;border-radius: 5px;width: 194px;content: "";display: table;}
+.footer .follow-us-footer{background: #D87429;color: #FFF;padding:4px 35px;font-family: 'Raleway', sans-serif;text-align: center;width: 60%;}
+.footer .follow-us-footer .insp-text{font-family:'Dancing Script', cursive;color: #FFF;}
+.footer .follow-us-footer h3{white-space: pre-line;}
+.footer .followus-footer-img-div{width: 100%;height: 300px; display: inline-block; overflow: hidden;}
+.footer .followus-footer-img-div img{width: 100%;height: 100%; display: block; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.footer .followus-footer-img-div:hover img{ -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
+.footer-right-txt{padding-right: 12%;}
+.footer-singe-line{padding-top: 16px; margin-top: -100px; display: flex; flex-wrap: wrap; justify-content: space-between; border-top: 1px solid #D4D4D4;}
+/*side menu*/
+.sidepanel {width: 0;position: fixed;z-index: 1000;height: auto;top: 0;right: 0;background-color: #F4E5DA;overflow-x: hidden;transition: 0.5s;padding-top: 60px;}
+.sidepanel a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 18px;color: #2B2B2B;display: block;transition: 0.3s;}
+.sidepanel a:hover {color: #B26933;}
+.closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;}
+
+/*sidebar*/
+.inner-side-div {background-color:#FFF6F0 ;width: 390px;height: 100vh; padding: 40px 0px 0px 10px;margin-left: auto;text-align: left;}
+.modal-open{padding-right: 0px!important;overflow-x: hidden;overflow-y: auto;}
+.modal{padding-right: 0!important;}
+.modal-dialog{padding: 0;margin: 0 0 0 auto;max-width: 780px;}
+.modal-content{background-color: #F4E5DA;border: none;}
+.modal-body{padding: 0px;}
+.close {top: 10;right: 20;position: absolute;font-size: 2.5rem;}
+.inner-side-div ul{list-style: none;}
+.inner-side-div ul li a{text-decoration: none;color: #2B2B2B;font-family: 'Raleway', sans-serif;font-weight: 600;}
+.inner-side-div ul li a:hover{color: #D87429;}
+.inner-side-div li{margin-top: 50px;font-size: 30px;}
+.member-sidebar-content{position: absolute;padding:40px 0px 0px 65px;}
+.member-sidebar-content p{color: #FFF;font-family:'Dancing Script', cursive;transform: rotateZ(-20deg);position: absolute;font-size: 32px;font-weight: 100;left: 40px; text-shadow: 0px 0px 10px rgb(136 136 136);}
+.member-sidebar-content h3{color: #D87429;font-size:38px;white-space: pre-line;position: absolute;bottom: -30px;left: 100px;font-family: 'Raleway', sans-serif;font-weight: 600; text-align: center; }
+.member-sidebar-content h5{color: #2B2B2B;font-size: 13px;position: absolute;bottom: -120px;text-align: center;font-family: 'Raleway', sans-serif;font-weight: 600;}
+.member-sidebar-content .social-media-sidebar{display: flex;justify-content: space-between;text-align: center;position: relative;top:180px;}
+.member-sidebar-content .social-media-sidebar i{margin-left: 10px;color: #5a5a5a;font-size: 24px;cursor: pointer;}
+.member-sidebar-content .social-media-sidebar i:hover{color: #D87429;}
+
+
+/* About PAge Start */
+
+#AboutsecondSection{background: rgba(178, 105, 51, 0.1);}
+.hey-there.hello-text{color: rgba(178, 105, 51, 1);}
+.Wht-is-Exhale-About{margin-top: -156px; margin-bottom: 70px;}
+.sm-txt{font-family: 'Raleway'; font-size: 14px; font-weight: 300; line-height: 2.2rem; letter-spacing: 1.02;}
+.What-is-exhale-with-me{background-color: rgba(178, 105, 51, 1);}
+.What-is-exhale-with-me.hello-text{color: #ffffff;}
+.about-owner-img-main{padding: 70px 0px 0px 0px;  width: 100%; height: 700px;}
+.about-owner-image-main{background-image: url(../images/Miriam-1.jpg); width: 100%; height: 100%; background-size: cover; background-position: center;}
+/* workshop-start */
+.workshopMainImgSec{margin-right: -145px; z-index: 2;}
+.workshop-main-img{padding: 30px;}
+.workshop-main-txt{background-color: rgba(247, 240, 235, 1); padding: 40px 20px 40px 169px;}
+
+/* contact start */
+
+.contact-main{height: 110%; display: flex;  width: 100%;align-items: flex-end; }
+.img-section{height: 100%;  position: relative; z-index: 3;}
+.image-part{ background-position: center; background-image: url(../images/Miriam-contact-img.jpg); bottom: 0; width: 450px; height: 500px;}
+.image-part p{font-size: 80px; line-height: 100px; color: rgba(43, 43, 43, 1); margin-left: 80%;}
+.form-section{background-color: #F7F0EB; padding: 50px; width: 83%; margin-left: auto; z-index: 2;}
+.form-section p{padding: 0 60px 20px 321px; margin-top: 70px; color: #606060 !important; }
+/* .contact-page .header .navbar-nav li.nav-item a.nav-link:hover{color: #D87429;}
+.contact-page .nav-item.active span{color: #D87429;} */
+.form-main{padding: 0 60px 0 300px;}
+.form-main .form-field{width: 100%;}
+.form-main .input-box input{margin-top: 10px; width: 100%; border: none; padding: 6px; font-family: 'Oswald'; font-weight: 380;}
+.form-main .input-box input:focus-visible{outline: none;}
+.email-website{display: flex; justify-content: space-between; width: 100%; }
+.form-main .email-box input{margin-top: 10px;  width: 97%; border: none; padding: 6px; font-family: 'Oswald'; font-weight: 380;}
+.form-main .email-box input:focus-visible{outline: none;}
+.form-main .website-box input:focus-visible{outline: none;}
+.form-main .website-box input{margin-top: 10px;  width: 100%; border: none; padding: 6px; font-family: 'Oswald'; font-weight: 380;}
+.form-main .message-box textarea{height: 140px; margin-top: 10px; width: 100%; border: none; padding: 6px; font-family: 'Oswald'; font-weight: 380;}
+.form-main .message-box textarea:focus-visible{outline: none;}
+.form-main .about-btn{border: none; margin-top: 10px;}
+
+/* individual-page-start */
+#IndividualCoachingSec{margin-top: 100px;}
+.indi-img-box{width: 400px; height: 400px; }
+.indi-content{background-color: rgba(247, 240, 235, 1); padding: 60px 40px 60px 160px; }
+.indi-img-main{background-image: url(../images/individual-coaching-main.jpg); width: 100%; height: 100%; background-size: cover; margin: 60px 0 0 176px;}
+.indiImageMain{margin-left: -70px; z-index: 3;}
+
+/* School-main-start*/
+
+.school-img-box{width: 400px; height: 400px; margin-left: 60px;  }
+.school-img-box img{z-index: 2}
+.sm-h{font-size: 26px; color: rgba(96, 96, 96, 1);}
+.school-content{margin-top: 50px;  width: 100%; height: auto; margin-left: -10px; padding: 30px 50px 40px 140px; background-color: #F7F0EB;}
+#schoolMain{margin-top: 100px; margin-bottom: 150px;}
+.no-reverse{margin-top: 100px;}
+.reverse{flex-direction: row-reverse; margin-top: 100px;}
+.reverse .school-img-box{margin-right: 70px; margin-left: -40px;}
+.reverse .school-content{padding: 30px 140px 40px 30px; margin-left: 60px;}
+
+/* inspiration Main start */
+
+#inspirationMain{margin: 50px 0px 100px 0 ; }
+#inspirationMain .hello-text{ color: #D87429;}
+.inspi-main-heading .sm-txt{color: #D87429; font-weight: 400;}
+.inspi-content-bg{background-color: rgba(247, 240, 235, 1); padding: 20px;}
+.QuickLinks{line-height: 30px;}
+.QuickLinks a{text-decoration: none; color: #ffffff;}   
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+
+    .carousel-inner{height: 70vh;}
+   
+    .owner-img{width: 100%;} .owner-img img{width: 100%;}
+    .second-container .about-owner{margin-left: 0; height: auto; padding: 80px 60px;}
+    .fourth-section {padding: 20px 150px}
+    .hanging-section-main{margin: 45px 0px;}
+    .fourth-section .top-div{margin-top: 18%;}
+    .fourth-section .bottom-div{margin-top: 18%;}
+    .fifth-section{height: 365px;}
+    .haging-point{display: none;}
+    .hanging-rope{display: none;}
+    .swing{animation: none }
+    .second-container .main{flex-wrap: wrap; display: block !important;}
+    .mission-part{padding: 70px 30px;}
+    .mission-part .our-mission-text{font-size: 40px;}
+    .our-supprters-logos-list{margin-top: 50px !important;}
+    .top-div .arrow-img{bottom: 50px;}
+    .sixth-section ul{margin-top: 60px; margin-left: 0px; padding-left: 0;}
+    .ws-thumbneil{margin-bottom: 36px;}
+    .about-footer-inner{flex-wrap: wrap; justify-content: center;}
+    .about-us-footer-div{padding-left: 0;}
+    .footer-text{text-align: center; padding-left:60px !important; padding-right: 60px;}
+    .get-around-main{padding-left: 0px !important;}
+    .social-media{justify-content: center;}
+    .social-media-and-thumbnail{flex-wrap: wrap;}
+    .footer .follow-us-footer{width: 100%;}
+    .footer .followus-footer-img-div img{height: auto;}
+
+    /* contact-start */
+
+    .contact-main {height: auto; display: block; width: 100%;}
+    .form-section{padding: 450px 40px 40px 40px; height: 88%; width: 100%; margin-left: 0; margin-top: -430px;}
+    .form-section p{padding: 0; margin-top: 20px;}
+    .form-main{padding: 30px;}
+    .image-part p{font-size: 56px; line-height:65px ;}
+    .img-section{height: 57%;}
+    
+    /* individual coaching */
+
+    .indi-img-main{margin: 0;}
+    .indiImageMain{margin: 0;}
+    .indi-img-box{width: 100%; height: 600px;}
+    .indi-content {padding: 20px;}
+    .footer .get-around{top: 40px;  margin: 20px auto 190px auto;}
+
+    /* school */
+
+    .school-img-box{width: 100%; height: auto; margin-left: 50px;}
+    .school-content{padding: 30px; margin-left: 0%;}
+    .reverse .school-img-box{margin-left: 44px;}
+    .reverse .school-content{margin-left: 0; padding: 30px;}
+
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) { 
+    .member-sidebar-content{display: none; padding-left: 0;}
+    .carousel-inner{height: 50vh;}
+    .owner-img{width: 100%;} .owner-img img{width: 100%;}
+    .second-container .about-owner{margin-left: 0;}
+    /* .fourth-section {padding: 120px 178px 120px 166px;} */
+    /* .fourth-section .top-div{margin: 20% 0} */
+    /* .fourth-section .bottom-div{margin: 20% 0;} */
+    .fifth-section{height: 365px;}
+   
+    .second-container .main{flex-wrap: wrap; display: block !important;}
+    .about-footer-inner{flex-wrap: wrap;}
+    .modal-content{background-color: transparent;}
+    .img-section{height: 67%;}
+    .form-section{height: 108%;}
+
+    /* imndividual-coaching */
+
+    .indi-img-main{margin: 0;}
+    .indiImageMain{margin: 0;}
+    .indi-img-box{width: 100%; height: 360px;}
+    .indi-content {padding: 20px;}
+}
+
+
+@media (max-width: 576px) { 
+    .main-content { padding: 137px 16px 220px 52px; color: #FFF;}
+    .modal-content{background-color: transparent;}
+    .member-sidebar-content{display: none; padding-left: 0;}
+    .other-content h2{font-size: 30px;}
+    .support-data img{margin-top: 60px;}
+    .supporter-img-box{width: 100px;}
+    .mission-part{padding: 40px 20px;}
+    .fourth-section{padding: 50px !important;}
+    .sixth-section ul{padding: 0; margin:50px 0px 12px 0px;}
+    .img-name{left: 208px; top: 16px; font-size: 20px;}
+    .top-div .arrow-img{left: 223px; bottom: 55px;}
+    .bottom-div .arrow-img{left: 223px;}
+    .footer .get-around{width: 100%; top:0;}
+    .about-us-footer-div{padding: 0;}
+    .social-media span{display: none;}
+    .social-media .fab{padding-left: 8px;}
+    .second-container .main{flex-wrap: wrap;}
+    .about-footer-inner{flex-wrap: wrap; justify-content: center;}
+    .footer .follow-us-footer{width: 100%;}
+    .footer .followus-footer-img-div{height: 100%;}
+    .social-media-and-thumbnail{flex-wrap: wrap;}
+    .navbar-toggler{display: none;}
+    .footer-text p{font-size: 14px;}
+    .footer-text{text-align: center; padding: 10px 36px !important;}
+    .down-arrow{display: none;}
+    .fourth-section .bottom-div{margin: 0%;}
+    .time-btn{padding: 0px 9px; font-size: 10px;}
+    .mission-part h5{font-size: 12px;}
+    .seventh-section{padding: 36px 50px 100px 50px;}
+    .inner-side-div{width: 100%;}
+    .social-media{justify-content: center;}
+    .get-around-main{padding-left:0  !important ;}
+    .about-owner-img-main{padding: 40px 0 0 0 ;}
+
+    /* about-start */
+
+    .Wht-is-Exhale-About{margin: 0; padding: 0;}
+    .workshop-main-img{padding: 0;}
+    .workshopMainImgSec{margin: 0;}
+    .workshop-main-txt{padding: 20px;}
+
+    /* contact-start */
+    .image-part{width: 312px;}
+    .img-section{margin-top: 52%;}                  
+    .contact-main {height: auto; display: block; width: 100%;}
+    .form-section{padding: 450px 40px 40px 40px; height: 176%; width: 100%; margin-left: 0; margin-top: -430px;}
+    .form-section p{padding: 0; margin-top: 20px;}
+    .form-main{padding: 30px;}
+    .image-part p{font-size: 56px; line-height:65px ;}
+
+    /* individual Coaching */
+    .indi-img-main{margin: 0;}
+    .indiImageMain{margin: 0;}
+    .indi-img-box{width: 344px; height: 360px;}
+    .indi-content {padding: 20px;}
+
+    .footer-singe-line{padding-top: 16px; margin-top: 0px;}
+
+    .inner-side-div li{font-size: 20px;}
+    .inner-side-div ul{margin-top: 80px; line-height: 12px;}
+
+    .school-img-box{width: 345px; height: 260px; margin-left: auto; margin-right: auto;}
+    .school-content{margin-left: 0; padding: 30px;}
+    .reverse .school-img-box{margin-right: 0; margin-left: 0;}
+    .reverse .school-content{margin-left: 0px; padding: 30px;}
+    
+    
+}
+
+
+
+@media (max-width: 450px) {
+    .img-section{margin-top: 20%;}
+    .form-section{height: 130%;}
+
+}
+
+@media (max-width: 375px){
+    .img-section{margin-top: 50%;}
+    .school-img-box{width: 324px;}
+}
